@@ -1,0 +1,474 @@
+@charset "UTF-8";
+/**
+* @authors ld (luodan@cairenhui.com)
+* by 2014-12-31
+*/
+@media all and (width: 1024px) and (height: 691px) and (orientation: landscape) {
+  html,
+  body {
+    height: 671px;
+  }
+}
+@media all and (width: 1024px) and (height: 692px) and (orientation: landscape) {
+  html,
+  body {
+    height: 672px;
+  }
+}
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+}
+body {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+	width: 100%;
+	-webkit-text-size-adjust: 100%;
+	background: #f1f1f1;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+figure {
+  padding: 0;
+  margin: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-weight: normal;
+  font-style: normal;
+}
+ol,
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+.clearfix:after {
+  content: '\20';
+  clear: both;
+  height: 0;
+  display: block;
+}
+.clearfix {
+  *zoom: 1;
+}
+.firstpage img,
+.secondpage img,
+.thirdpage img,
+.fourthpage img,
+.fifthpage img,
+.sixthpage img,
+.seventhpage img,
+.eighthpage img,
+.newfourthpage .newfourth{
+  margin: 0px auto;
+  border: none;
+}
+canvas {
+  display: block;
+}
+.firstcontent {
+  position: relative;
+}
+.audio-content {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  z-index: 999;
+  width: 80px;
+  height: 80px;
+}
+.firstcontent .ogg {
+  margin-top: 15px;
+  margin-left: 40px;
+}
+.firstpage .first-top {
+  opacity: 0;
+  position: fixed;
+  top: 5%;
+  left: 20%;
+}
+.firstpage .first-crh {
+  margin-bottom: 15px;
+}
+.firstpage .first-txt {
+  opacity: 0;
+  position: fixed;
+  top: 35%;
+}
+.firstpage .first-bottom {
+  opacity: 0;
+  position: fixed;
+  bottom: 0px;
+}
+.secondpage .second-jihui {
+  padding: 20px 0px 10px 0px;
+  opacity: 0;
+}
+.secondpage .people-content {
+  position: relative;
+  width: 100%;
+}
+.people-content .left-hand {
+  position: absolute;
+  top: 51%;
+  left: 22%;
+}
+.people-content .right-hand {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 29%;
+  
+}
+.secondpage .second-hlw,
+.secondpage .guanghuan,
+.secondpage .people-all,
+.secondpage .people,
+.secondpage .left-hand,
+.secondpage .second-bottom,
+.thirdpage .third-dyc,
+.thirdpage .third-ht,
+.thirdpage .third-sjs,
+.thirdpage .third-cpg,
+.thirdpage .third-cxy,
+.thirdpage .third-bottom,
+.third-yh,
+.third-cpty,
+.third-jiemian,
+.third-xitong,
+.first-li,
+.second-li,
+.third-li,
+.fourth-li,
+.fifth-li,
+.sixth-li,
+.balloon,
+.fifth-2014,
+.fifth-thanks,
+.rate-content,
+.seventh-2015,
+.seventh-yypt,
+.seventh-qidai,
+.seventh-changjing,
+.seventh-bottom,
+.eighth-crh,
+.triangle2,
+.triangle3,
+.eighth,
+.crhcp,
+.newfourth {
+  opacity: 0;
+}
+
+.secondpage .people-center {
+  position: relative;
+}
+.secondpage .guanghuan {
+  padding-top: 5px;
+}
+.secondpage .people {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+.secondpage .second-bottom {
+  padding-top: 10px;
+}
+.thirdpage {
+  position: relative;  
+  z-index: 9;
+}
+.thirdpage .third-center {
+  margin: 0px auto;
+  padding-top: 20px;
+  width: 70%;
+  position: relative;
+}
+.thirdpage .third-dyc {
+    padding: 20px 0px;
+}
+.third-center .third-sjs {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+}
+.third-center img {
+  float: left;
+}
+.third-center .third-cpg {
+  position: relative;
+  bottom: 0%;
+  left: 5%;
+}
+.third-center .third-cxy {
+  position: relative;
+  bottom: 0%;
+  left: 10%;
+}
+.thirdpage .third-txt {
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  width: 100%;
+}
+.third-txt img {
+  padding-bottom: 20px;
+}
+.thirdpage .third-bottom {
+  opacity: 0;
+  position: relative;
+  bottom: 15px;
+  left: 0px;
+  z-index: -1;
+  padding-bottom: 150px;
+  background: #7e07c2;
+}
+/*.fourth-content {
+  z-index: 9;
+}*/
+.fourthpage {
+  position: relative;
+}
+.fourthpage .balloon {
+  z-index: 12;
+}
+.fourthpage .cloud {
+  position: absolute;
+  top: 19%;
+  left: 16%;
+  z-index: 11;
+}
+.fourthpage .blank {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.friend-content {
+  padding-top: 6%;
+  overflow: hidden;
+  margin: 0px auto;
+  text-align: left;
+  width: 87%;
+  position: relative;
+  top: 0%;
+}
+
+.friend-content li img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+.friend-content li img:nth-child(odd) {
+  margin-right: 15px;
+}
+
+
+.flag-content {
+  width: 75%;
+  margin: 0px auto;
+  z-index: 9;
+  position: relative;
+}
+.flag-content img {
+  margin-top: 15px;
+  float: left;
+}
+.flag-content .flag1 {
+  position: relative;
+  left: 300%;
+}
+.flag-content .flag2 {
+  position: relative;
+  left: 300%;
+}
+.flag-content .flag3 {
+  position: relative;
+  left: 300%;
+}
+.fifth-content {
+  z-index: 10;
+  position: relative;
+}
+.fifthpage .fifth-2014 {
+  padding: 20px 0px 30px 0px;
+}
+.fifthpage .horse {
+  position: relative;
+  bottom: 70px;
+  left: 300%;
+  z-index: 11;
+}
+.fifth-scont {
+  opacity: 0;
+  width: 100%; 
+}
+.fifth-scont img {
+  position: absolute;
+  left: 15%;
+  top: 30%;
+}
+.fifth-scont .gauge {
+  margin: 0px auto;
+} 
+.rate-content {
+  position: absolute;
+  top: 31%;
+  left: 20%;
+}
+
+.sixth-content {
+  position: relative;
+}
+.sixthpage .sixth-top {
+  opacity: 0;
+  padding-top: 20px;
+}
+.sixthpage .lighting {
+  position: relative;
+  top: 40px;
+  z-index: 1;
+}
+.sixthpage .light {
+  opacity: 0;
+  padding-bottom: 40px;
+}
+.sixthpage .sixth-bottom {
+  opacity: 0;
+}
+
+.seventh-content {
+  position: relative;
+}
+.seventhpage .seventh-2015 {
+  padding: 20px 0px 30px 0px;
+}
+.seventhpage .seventh-qidai {
+  padding: 30px 0px;
+}
+.seventhpage .seventh-bottom {
+  position: absolute;
+  left: 5%;
+  bottom: 0%;
+}
+.eighthpage {
+  position: relative;
+  width: 80%;
+  margin: 0px auto;
+}
+.eighthpage .eighth-crh {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding-top: 15px;
+  z-index: 3;
+}
+.eighthpage .hat {
+  opacity: 0;
+  position: absolute;
+  bottom: 31%;
+  left: 19.5%;
+}
+.eighthpage .triangle2 {
+  position: absolute;
+  top: 34.3%;
+  right: 0%;
+  z-index: 2;
+}
+.eighthpage .triangle3 {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  z-index: 1;
+}
+.eighthpage .eighth {
+  padding-top: 15%;
+}
+.eighthpage .crhcp {
+  padding-top: 10px;
+}
+.page-top {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background: #fff;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.arrow,
+.third-arrow,
+.fourth-arrow,
+.fifth-arrow,
+.sixth-arrow {
+  position: fixed;
+  z-index: 999;
+  bottom: 10px;
+  left: 43%;
+  opacity: 0;
+}
+#occupancy {
+  position: absolute;
+  left: 50%;
+  top: 63%;
+  margin-left: -150px;
+  margin-top: -150px;
+  z-index: 999;
+}
+#occupancy .rate {
+  position: absolute;
+  top: 52%;
+  left: 61.5%;
+  font-size: 16px;
+  color: #fff;
+  opacity: 0;
+}
+.newfourth {
+  padding-top: 6%;
+}
